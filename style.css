@@ -80,12 +80,6 @@ section button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
-.item-resultado h2 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
-}
-
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
@@ -108,6 +102,12 @@ section button {
 .item-resultado h3 {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #581C87; /* Cor do texto */
+    text-align: left; /* Alinha o texto ao centro */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+}
+
+.item-resultado p {
+    color: #45474B; /* Cor do texto */
     text-align: left; /* Alinha o texto ao centro */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
 }
